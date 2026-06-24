@@ -70,6 +70,6 @@ jobs:
         sleep 15
       working-directory: note
     - name : Run E2E tests
-      uses: cypress-io/github-action@v6.5.O
+      uses: cypress-io/github-action@v7
       with:
         working-directory: note
