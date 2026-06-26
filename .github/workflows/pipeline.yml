@@ -135,6 +135,6 @@ jobs:
      - name: Docker build and push backend
        uses: docker/build-push-action@v7.2.0
        with:
-         file: demo/Dockerfile
+         context: demo
          push: true
          tags: romainsessa/ynov-backend:latest
