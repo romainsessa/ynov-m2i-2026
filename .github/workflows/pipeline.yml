@@ -108,7 +108,7 @@ jobs:
       run: npm ci
       working-directory: note
     - name: Build
-      run: npm run build --configuration production
+      run: npm run build -- --configuration production
       working-directory: note
     - name: Upload dist directory
       uses: actions/upload-artifact@v7.0.1
