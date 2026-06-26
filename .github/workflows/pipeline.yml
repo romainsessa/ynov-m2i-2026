@@ -94,7 +94,7 @@ jobs:
       with:
         name: backend.jar
         path: demo/target/*.jar
- build-frontend:
+  build-frontend:
     runs-on: ubuntu-latest
     needs: test-e2e
     steps:
